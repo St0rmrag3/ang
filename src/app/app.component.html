@@ -1,0 +1,9 @@
+
+<div> 
+    <p> Имя: {{name}}
+        Возраст: {{age}}
+    </p>
+    <button (click)="GetStringInput()"> F</button>
+    <input type="text" [(ngModel)]="name" placeholder="Имя" />   
+    <input type="number" [(ngModel)]="age" placeholder="Возраст"/>
+</div>
